@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"../data"
+	"github.com/xXNurioXx/simple-golang-restapi-experiment/data"
 )
 
 func AllServers(w http.ResponseWriter, r *http.Request) {

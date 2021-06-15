@@ -6,7 +6,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	. "./controllers"
+	. "github.com/xXNurioXx/simple-golang-restapi-experiment/controllers"
 )
 
 func main() {

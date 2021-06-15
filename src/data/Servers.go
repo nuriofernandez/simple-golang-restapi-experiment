@@ -1,6 +1,6 @@
 package data
 
-import . "../structs"
+import . "github.com/xXNurioXx/simple-golang-restapi-experiment/structs"
 
 var Servers = []MinecraftServer{
 	MinecraftServer{Id: "1", Domain: "minegrech.com", Image: 1, Score: 1, OnlinePlayers: 100, MaxPlayers: 120},

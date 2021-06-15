@@ -4,7 +4,7 @@ import (
 	"github.com/gorilla/mux"
 	"net/http"
 
-	"../data"
+	"github.com/xXNurioXx/simple-golang-restapi-experiment/data"
 )
 
 func DeleteServer(w http.ResponseWriter, r *http.Request) {

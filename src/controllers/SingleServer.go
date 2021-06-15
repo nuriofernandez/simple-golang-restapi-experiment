@@ -5,7 +5,7 @@ import (
 	"github.com/gorilla/mux"
 	"net/http"
 
-	"../data"
+	"github.com/xXNurioXx/simple-golang-restapi-experiment/data"
 )
 
 func SingleServer(w http.ResponseWriter, r *http.Request) {

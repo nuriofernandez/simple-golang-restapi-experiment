@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"../data"
-	. "../structs"
+	"github.com/xXNurioXx/simple-golang-restapi-experiment/data"
+	. "github.com/xXNurioXx/simple-golang-restapi-experiment/structs"
 )
 
 func NewServer(w http.ResponseWriter, r *http.Request) {
